@@ -12,7 +12,7 @@ const Index = () => {
       <div className="w-full max-w-content mx-auto px-golden-lg py-golden-2xl">
         
         {/* Badge Ramadhan */}
-        <section className="text-left mb-golden-lg animate-fade-up">
+        <section className="text-center mb-golden-lg animate-fade-up">
           <span className="inline-block bg-primary/10 text-primary px-golden-md py-golden-xs rounded-full text-sm font-semibold font-body tracking-wide">
             🌙 Spesial Ramadhan
           </span>
