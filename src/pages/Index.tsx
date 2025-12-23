@@ -9,15 +9,8 @@ const Index = () => {
   return (
     <main className="min-h-screen bg-background">
       {/* Container dengan max-width 730px */}
-      <div className="w-full max-w-content mx-auto px-golden-lg py-golden-2xl">
+      <div className="w-full max-w-content mx-auto px-golden-lg pt-golden-3xl pb-golden-2xl">
         
-        {/* Badge Ramadhan */}
-        <section className="text-center mb-golden-lg animate-fade-up">
-          <span className="inline-block bg-primary/10 text-primary px-golden-md py-golden-xs rounded-full text-sm font-semibold font-body tracking-wide">
-            🌙 Spesial Ramadhan
-          </span>
-        </section>
-
         {/* Main Headline - Rata Kiri, Kata Sensorik */}
         <section className="text-left mb-golden-xl animate-fade-up">
           <h1 className="font-display text-3xl sm:text-4xl md:text-[2.75rem] font-bold text-foreground leading-tight mb-golden-lg">
