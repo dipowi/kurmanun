@@ -1,6 +1,7 @@
 import { BenefitCard } from "@/components/BenefitCard";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
-import { Wallet, ShieldCheck, Heart, Package, Check } from "lucide-react";
+import { Wallet, ShieldCheck, Heart, Package, Check, Instagram } from "lucide-react";
+import logoKurmanun from "@/assets/logo-kurmanun.png";
 
 const Index = () => {
   const whatsappNumber = "628994656888";
@@ -234,15 +235,36 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Footer/Tagline */}
-        <footer className="text-left pb-golden-xl">
-          <div>
-            <p className="font-display text-xl sm:text-2xl font-semibold text-primary mb-golden-xs">
-              Kumanun
-            </p>
-            <p className="text-muted-foreground font-body text-sm tracking-wide">
-              Selalu Pas, Selalu Puas.
-            </p>
+        {/* Footer/Tagline - Rata Tengah dengan Logo & Instagram */}
+        <footer className="text-center pb-golden-xl">
+          <div className="flex flex-col items-center gap-golden-md">
+            {/* Logo */}
+            <img 
+              src={logoKurmanun} 
+              alt="Logo Kumanun" 
+              className="w-12 h-12 object-contain"
+            />
+            
+            {/* Brand Name & Tagline */}
+            <div>
+              <p className="font-display text-xl sm:text-2xl font-semibold text-primary mb-golden-xs">
+                Kumanun
+              </p>
+              <p className="text-muted-foreground font-body text-sm tracking-wide">
+                Selalu Pas, Selalu Puas.
+              </p>
+            </div>
+            
+            {/* Instagram Link */}
+            <a 
+              href="https://instagram.com/kurmanun" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-golden-xs text-muted-foreground hover:text-primary transition-colors duration-200 font-body text-sm"
+            >
+              <Instagram className="w-5 h-5" />
+              <span>@kurmanun</span>
+            </a>
           </div>
         </footer>
 
