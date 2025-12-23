@@ -228,7 +228,7 @@ const Index = () => {
                 size="xl"
                 className="w-full sm:w-auto"
               >
-                Pesan Sekarang via WhatsApp
+                Pesan Sekarang
               </WhatsAppButton>
             </div>
           </div>
