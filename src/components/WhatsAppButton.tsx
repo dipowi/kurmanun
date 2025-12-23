@@ -11,7 +11,7 @@ interface WhatsAppButtonProps {
 
 export const WhatsAppButton = ({ 
   phoneNumber, 
-  message = "Halo, saya tertarik dengan kurma Kumanun!", 
+  message = "Halo, saya tertarik dengan kurma Kurmanun!", 
   className,
   children,
   size = "lg"
