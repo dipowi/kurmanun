@@ -60,10 +60,10 @@ const Index = () => {
             Tenang...
           </p>
           <p className="text-lg sm:text-xl text-foreground font-body leading-relaxed mb-golden-lg">
-            <strong className="text-primary font-semibold">Kumanun</strong> hadir buat Anda yang cerdas mengatur anggaran rumah tangga.
+            <strong className="text-primary font-semibold">Kurmanun</strong> hadir buat Anda yang cerdas mengatur anggaran rumah tangga.
           </p>
           <h2 className="font-display text-2xl sm:text-3xl font-semibold text-foreground">
-            Kenapa Kumanun jadi solusi pas buat Ramadhan Anda?
+            Kenapa Kurmanun jadi solusi pas buat Ramadhan Anda?
           </h2>
         </section>
 
@@ -86,7 +86,7 @@ const Index = () => {
             </p>
             
             <p className="text-foreground font-body text-base sm:text-lg leading-loose mb-golden-md">
-              Di Kumanun, Anda bisa beli kemasan <strong className="text-primary">"Pas di Kantong"</strong>:
+              Di Kurmanun, Anda bisa beli kemasan <strong className="text-primary">"Pas di Kantong"</strong>:
             </p>
             
             {/* Bullet Points - Scannable */}
@@ -133,7 +133,7 @@ const Index = () => {
             </p>
             
             <p className="text-foreground font-body text-base sm:text-lg leading-loose mb-golden-md">
-              Kumanun itu <strong className="text-primary">kurma Repack Premium</strong>:
+              Kurmanun itu <strong className="text-primary">kurma Repack Premium</strong>:
             </p>
             
             {/* Kata Sensorik - Penglihatan, Peraba, Pengecap */}
@@ -200,7 +200,7 @@ const Index = () => {
             </h2>
             
             <p className="text-foreground font-body text-base sm:text-lg leading-relaxed mb-golden-lg">
-              Amankan stok kurma Anda sekarang di Kumanun.
+              Amankan stok kurma Anda sekarang di Kurmanun.
             </p>
             
             <p className="text-foreground font-body text-base sm:text-lg leading-relaxed mb-golden-md">
@@ -226,7 +226,7 @@ const Index = () => {
 
             <WhatsAppButton 
               phoneNumber={whatsappNumber}
-              message="Halo Kumanun! Saya mau pesan kurma untuk Ramadhan. Bisa info harga dan cara ordernya?"
+              message="Halo Kurmanun! Saya mau pesan kurma untuk Ramadhan. Bisa info harga dan cara ordernya?"
               size="xl"
               className="w-full sm:w-auto"
             >
@@ -241,14 +241,14 @@ const Index = () => {
             {/* Logo */}
             <img 
               src={logoKurmanun} 
-              alt="Logo Kumanun" 
+              alt="Logo Kurmanun" 
               className="w-12 h-12 object-contain"
             />
             
             {/* Brand Name & Tagline */}
             <div>
               <p className="font-display text-xl sm:text-2xl font-semibold text-primary mb-golden-xs">
-                Kumanun
+                Kurmanun
               </p>
               <p className="text-muted-foreground font-body text-sm tracking-wide">
                 Selalu Pas, Selalu Puas.
