@@ -13,7 +13,7 @@ const Index = () => {
         
         {/* Main Headline - Rata Kiri, Kata Sensorik */}
         <section className="text-left mb-golden-xl animate-fade-up">
-          <h1 className="font-display text-3xl sm:text-4xl md:text-[2.75rem] font-bold text-foreground leading-tight mb-golden-lg">
+          <h1 className="font-display text-[1.75rem] sm:text-4xl md:text-[2.75rem] font-bold text-foreground leading-tight mb-golden-lg">
             Jangan Sampai Ibadah Lancar Tapi Dapur "Kebakaran" Gara-Gara Salah Strategi Belanja Kurma!
           </h1>
         </section>
@@ -48,13 +48,17 @@ const Index = () => {
         </section>
 
         {/* Solution Intro - Spesifik & To The Point */}
-        <section className="text-left mb-golden-2xl animate-fade-up-delay-2">
+        <section className="text-left mb-golden-xl animate-fade-up-delay-2">
           <p className="text-lg sm:text-xl text-foreground font-body leading-relaxed mb-golden-md">
             Tenang...
           </p>
-          <p className="text-lg sm:text-xl text-foreground font-body leading-relaxed mb-golden-lg">
+          <p className="text-lg sm:text-xl text-foreground font-body leading-relaxed">
             <strong className="text-primary font-semibold">Kurmanun</strong> hadir buat Anda yang cerdas mengatur anggaran rumah tangga.
           </p>
+        </section>
+
+        {/* Sub-headline sebagai paragraf baru */}
+        <section className="text-left mb-golden-2xl animate-fade-up-delay-2">
           <h2 className="font-display text-2xl sm:text-3xl font-semibold text-foreground">
             Kenapa Kurmanun jadi solusi pas buat Ramadhan Anda?
           </h2>

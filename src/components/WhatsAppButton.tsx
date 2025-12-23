@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 interface WhatsAppButtonProps {
   phoneNumber: string;
@@ -27,10 +28,10 @@ export const WhatsAppButton = ({
       variant="whatsapp" 
       size={size}
       onClick={handleClick}
-      className={className}
+      className={cn("flex-wrap", className)}
     >
-      <MessageCircle className="w-5 h-5" />
-      {children || "Pesan Sekarang via WhatsApp"}
+      <MessageCircle className="w-5 h-5 flex-shrink-0" />
+      <span className="text-center">{children || "Pesan Sekarang via WhatsApp"}</span>
     </Button>
   );
 };
