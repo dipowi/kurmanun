@@ -240,22 +240,22 @@ const Index = () => {
         {/* Footer/Tagline - Rata Tengah dengan Logo & Instagram */}
         <footer className="text-center pb-golden-xl">
           <div className="flex flex-col items-center gap-golden-md">
-            {/* Logo */}
-            <img 
-              src={logoKurmanun} 
-              alt="Logo Kurmanun" 
-              className="w-12 h-12 object-contain"
-            />
-            
-            {/* Brand Name & Tagline */}
-            <div>
-              <p className="font-display text-xl sm:text-2xl font-semibold text-primary mb-golden-xs">
+            {/* Logo + Brand Name */}
+            <div className="flex items-center justify-center gap-golden-sm">
+              <img 
+                src={logoKurmanun} 
+                alt="Logo Kurmanun" 
+                className="w-8 h-8 object-contain"
+              />
+              <p className="font-display text-xl sm:text-2xl font-semibold text-primary">
                 Kurmanun
               </p>
-              <p className="text-muted-foreground font-body text-sm tracking-wide">
-                Selalu Pas, Selalu Puas.
-              </p>
             </div>
+            
+            {/* Tagline */}
+            <p className="text-muted-foreground font-body text-sm tracking-wide">
+              Selalu Pas, Selalu Puas.
+            </p>
             
             {/* Instagram Link */}
             <a 
