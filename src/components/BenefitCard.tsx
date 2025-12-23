@@ -10,7 +10,7 @@ interface BenefitCardProps {
 export const BenefitCard = ({ icon, title, description, className }: BenefitCardProps) => {
   return (
     <div className={cn(
-      "bg-card rounded-lg p-golden-xl border border-border/50 shadow-soft transition-all duration-300 hover:shadow-glow hover:-translate-y-1",
+      "bg-card rounded-lg p-golden-xl border border-border/50 shadow-soft transition-all duration-300 hover:shadow-glow hover:-translate-y-1 text-left",
       className
     )}>
       <div className="text-primary mb-golden-md">
