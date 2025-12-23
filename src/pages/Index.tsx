@@ -193,7 +193,7 @@ const Index = () => {
         </section>
 
         {/* CTA Section - Scannable dengan Bullets */}
-        <section className="text-left mb-golden-3xl">
+        <section className="text-center mb-golden-3xl">
           <div className="bg-gradient-to-b from-primary/5 to-primary/10 rounded-2xl p-golden-xl sm:p-golden-2xl border border-primary/20">
             <h2 className="font-display text-2xl sm:text-3xl font-bold text-foreground mb-golden-md">
               Yuk, jadi Muslim yang bijak!
